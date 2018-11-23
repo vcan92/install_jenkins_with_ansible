@@ -5,9 +5,9 @@
        name: "{{ item }}"
        with_dependencies: yes
        state: latest
-       url_username: devops
-       url_password: devops12!
-       url: http://ec2-35-177-180-5.eu-west-2.compute.amazonaws.com:8080
+       url_username: --
+       url_password: --
+       url: http://--:8080
      with_items:
         - workflow-step-api
         - ldap
