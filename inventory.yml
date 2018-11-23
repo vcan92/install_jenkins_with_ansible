@@ -1,5 +1,5 @@
 [jenkins]
-ec2-35-177-180-5.eu-west-2.compute.amazonaws.com
+
 
 [jenkins:vars]
 ansible_python_interpreter= /usr/bin/python3
