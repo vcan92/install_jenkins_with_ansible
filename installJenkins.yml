@@ -1,0 +1,11 @@
+---
+
+ - hosts: jenkins
+   become: true
+   remote_user: ubuntu
+   gather_facts: false
+   tasks:
+   roles:
+     - jenkins_install
+     - jenkins_plugins_install
+     - jenkins_service_restart
